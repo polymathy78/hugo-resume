@@ -1,0 +1,14 @@
+{
+  "name": "hugo-bootstrap-resume",
+  "version": "1.0.0",
+  "description": "Resume using Hugo & Bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
