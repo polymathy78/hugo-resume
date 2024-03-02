@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fast on My Hugo Site</title>
+    <title>Fast on Jeff Graham | Cloud-Native Developer</title>
     <link>https://www.myproductionurl.com/tags/fast/</link>
-    <description>Recent content in Fast on My Hugo Site</description>
+    <description>Recent content in Fast on Jeff Graham | Cloud-Native Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://www.myproductionurl.com/tags/fast/index.xml" rel="self" type="application/rss+xml" />
