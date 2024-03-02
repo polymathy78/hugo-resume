@@ -4,8 +4,8 @@ theme = "mytheme"
 relativeURLS = true
 
 [params]
-  author = "Blog Author"
-  description = "This is an awesome Hugo Bootstrap site"
+  author = "Jeff Graham"
+  description = "Cloud Enthusiast"
 
 [module]
   [[module.mounts]]
