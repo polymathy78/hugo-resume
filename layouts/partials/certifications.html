@@ -1,11 +1,11 @@
 <section class="resume-section" id="certifications">
   <div class="resume-section-content">
     <h2 class="mb-5">Certifications</h2>
-    <ul class="fa-ul mb-0">
+    <ul class="cert-ul mb-0">
       {{ range $.Page.Site.Data.certifications }}
       <li>
-        <span class="cert">
-          <img src="{{ .certSrc }}" alt="{{ .alt }}" />
+        <span>
+          <img src="{{ .certSrc }}" class="img-fluid cert-badge" alt="{{ .alt }}" />
         </span>
         {{ .certName }}
       </li>

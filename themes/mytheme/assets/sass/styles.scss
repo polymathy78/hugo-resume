@@ -12772,6 +12772,12 @@ section.resume-section .resume-section-content {
   }
 }
 
-.cert img {
-  height: 125px;
+.cert-badge {
+  max-width: 10%;
+  max-height: 10%
+}
+
+.cert-ul {
+  list-style-type: none;
+  padding-left: 0;
 }
