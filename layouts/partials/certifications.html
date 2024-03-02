@@ -1,15 +1,11 @@
 <section class="resume-section" id="certifications">
   <div class="resume-section-content">
     <h2 class="mb-5">Certifications</h2>
-    <ul class="cert-ul mb-0">
-      {{ range $.Page.Site.Data.certifications }}
-      <li>
-        <span>
-          <img src="{{ .certSrc }}" class="img-fluid cert-badge" alt="{{ .alt }}" />
-        </span>
-        {{ .certName }}
-      </li>
-      {{ end }}
-    </ul>
+    {{ range $.Page.Site.Data.certifications }}
+      <span>
+        <img src="{{ .certSrc }}" class="img-fluid cert-badge" alt="{{ .alt }}" />
+      </span>
+      {{ .certName }}
+    {{ end }}
   </div>
 </section>
