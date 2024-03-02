@@ -1,6 +1,9 @@
 [
   {
-    "certSrc": "badges/AWS-Certified-Solutions-Architect-Associate_badge.png",
-    "certName": "AWS Certified Solutions Architect - Associate"
+    "certSrc": "badges/aws-sapro.png",
+    "certName": "AWS Certified Solutions Architect - Professional",
+    "alt": "AWS Certified Solutions Architect - Professional",
+    "credlylink": "https://www.credly.com/badges/7a95ec1e-ac09-475e-8f13-75c250183757/public_url",
+    "dateIssued": "October 31, 2023"
   }
 ]

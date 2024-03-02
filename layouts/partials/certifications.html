@@ -4,8 +4,8 @@
     <ul class="fa-ul mb-0">
       {{ range $.Page.Site.Data.certifications }}
       <li>
-        <span>
-          <img src="{{ .certSrc }}" alt="..." />
+        <span class="cert">
+          <img src="{{ .certSrc }}" alt="{{ .alt }}" />
         </span>
         {{ .certName }}
       </li>
