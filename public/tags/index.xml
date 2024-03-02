@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://www.myproductionurl.com/tags/</link>
     <description>Recent content in Tags on My Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 20:57:19 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.myproductionurl.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blue</title>
-      <link>http://localhost:1313/tags/blue/</link>
+      <link>https://www.myproductionurl.com/tags/blue/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/blue/</guid>
+      <guid>https://www.myproductionurl.com/tags/blue/</guid>
       <description></description>
     </item>
     <item>
       <title>Green</title>
-      <link>http://localhost:1313/tags/green/</link>
+      <link>https://www.myproductionurl.com/tags/green/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/green/</guid>
+      <guid>https://www.myproductionurl.com/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>http://localhost:1313/tags/red/</link>
+      <link>https://www.myproductionurl.com/tags/red/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/red/</guid>
+      <guid>https://www.myproductionurl.com/tags/red/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>http://localhost:1313/tags/cloud/</link>
+      <link>https://www.myproductionurl.com/tags/cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cloud/</guid>
+      <guid>https://www.myproductionurl.com/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Fast</title>
-      <link>http://localhost:1313/tags/fast/</link>
+      <link>https://www.myproductionurl.com/tags/fast/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fast/</guid>
+      <guid>https://www.myproductionurl.com/tags/fast/</guid>
       <description></description>
     </item>
     <item>
       <title>Static</title>
-      <link>http://localhost:1313/tags/static/</link>
+      <link>https://www.myproductionurl.com/tags/static/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/static/</guid>
+      <guid>https://www.myproductionurl.com/tags/static/</guid>
       <description></description>
     </item>
   </channel>

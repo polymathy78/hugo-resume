@@ -1,34 +1,52 @@
 BaseURL = "https://www.myproductionurl.com/"
-  languageCode = "en-us"
-  title = "My Hugo Site"
-  theme = "mytheme"
-  relativeURLS = true
+languageCode = "en-us"
+title = "Jeff Graham | Cloud-Native Developer"
+theme = "mytheme"
+relativeURLS = true
 
-  [params]
-    author = "Blog Author"
-    description = "This is an awesome Hugo Bootstrap site"
+[params]
+  author = "Blog Author"
+  description = "This is an awesome Hugo Bootstrap site"
 
-  [module]
-    [[module.mounts]]
-      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      target = "assets/js/bootstrap.bundle.min.js"
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
 
-  [frontmatter]
-    date = ["date", "publishDate", "lastmod"]
-    lastmod = ["lastmod", ":fileModTime", ":default"]
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
 
-  sectionPagesMenu = "main"
+sectionPagesMenu = "main"
 
-  [menu]
+[menu]
 
-    [[menu.main]]
-      identifier = "services"
-      title = "Services"
-      url = "/services/"
-      weight = 200
+  [[menu.main]]
+    identifier = "blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 300
 
-    [[menu.main]]
-      identifier = "blog"
-      title = "Blog"
-      url = "/blog/"
-      weight = 300
+[deployment]
+
+  [[deployment.targets]]
+  name = "dev"
+  url = "s3://jeff-crc-hugo-resume"
+
+  [[deployment.targets]]
+  name = "prod"
+  url = "s3://jeff-crc-hugo-resume"
+
+  # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+  cloudFrontDistributionID =	"E3KKO2FKZXD02T"
+
+  [[deployment.matchers]]
+  # Cache static assets for 20 years.
+  pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+  cacheControl = "max-age=630720000, no-transform, public"
+  gzip = true
+
+  [[deployment.matchers]]
+  pattern = "^.+\\.(html|xml|json)$"
+  gzip = true
+
