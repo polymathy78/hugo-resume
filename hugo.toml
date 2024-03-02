@@ -1,20 +1,34 @@
-BaseURL = "https://www.mywebsite.com/"
-languageCode = "en-us"
-title = "My Hugo Site"
-theme = "mytheme"
-relativeURLS = true
+BaseURL = "https://www.myproductionurl.com/"
+  languageCode = "en-us"
+  title = "My Hugo Site"
+  theme = "mytheme"
+  relativeURLS = true
 
-[module]
-  [[module.mounts]]
-    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-    target = "assets/js/bootstrap.bundle.min.js"
+  [params]
+    author = "Blog Author"
+    description = "This is an awesome Hugo Bootstrap site"
 
-sectionPagesMenu = "main"
+  [module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
 
-[menu]
+  [frontmatter]
+    date = ["date", "publishDate", "lastmod"]
+    lastmod = ["lastmod", ":fileModTime", ":default"]
 
-  [[menu.main]]
-    identifier = "services"
-    title = "Services"
-    url = "/services/"
-    weight = 200
+  sectionPagesMenu = "main"
+
+  [menu]
+
+    [[menu.main]]
+      identifier = "services"
+      title = "Services"
+      url = "/services/"
+      weight = 200
+
+    [[menu.main]]
+      identifier = "blog"
+      title = "Blog"
+      url = "/blog/"
+      weight = 300
