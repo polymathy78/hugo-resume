@@ -2,10 +2,10 @@
   <div class="resume-section-content">
     <h2 class="mb-5">Certifications</h2>
     {{ range $.Page.Site.Data.certifications }}
-      <span>
+      <div class="d-flex align-items-center">
         <img src="{{ .certSrc }}" class="img-fluid cert-badge" alt="{{ .alt }}" />
-      </span>
-      {{ .certName }}
+        <span class="ps-1">{{.certName}}</span>
+      </div>
     {{ end }}
   </div>
 </section>
