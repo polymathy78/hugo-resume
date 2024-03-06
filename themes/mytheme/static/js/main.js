@@ -5,6 +5,7 @@ async function getCounter() {
     'https://zrzq671re4.execute-api.us-east-1.amazonaws.com/dev/get_counter'
   );
   const counter = await response.json();
-  console.log(json.parse(counter.body));
+  const parsedData = JSON.parse(counter.body);
+  return parsedData.Item.counter.N;
 }
 getCounter();
