@@ -6,6 +6,7 @@ relativeURLS = true
 [params]
   author = "Jeff Graham"
   description = "Cloud Enthusiast"
+  currentYear = "2024"
 
 [module]
   [[module.mounts]]
