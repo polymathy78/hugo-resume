@@ -6,6 +6,9 @@ async function getCounter() {
   );
   const counter = await response.json();
   const parsedData = JSON.parse(counter.body);
-  return parsedData.Item.counter.N;
+  let currentCount = parsedData.Item.counter.N;
+  console.log('current count:', currentCount);
+  const elem = document.getElementById('counter');
+  console.log(elem);
+  elem.innerHTML = currentCount;
 }
-getCounter();
