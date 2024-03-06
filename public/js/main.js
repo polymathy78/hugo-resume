@@ -7,3 +7,4 @@ async function getCounter() {
   const counter = await response.json();
   console.log(counter);
 }
+getCounter();
