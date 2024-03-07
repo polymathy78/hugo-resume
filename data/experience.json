@@ -3,7 +3,21 @@
     "jobTitle": "Partner Solutions Architect",
     "company": "Amazon Web Services",
     "jobDescription": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring",
-    "startDate": "March 2013",
+    "startDate": "August 2022",
     "endDate": "Present"
+  },
+  {
+    "jobTitle": "Web Application Architect",
+    "company": "Bloomberg Industry Group (Contract)",
+    "jobDescription": "• Collaborated with development team to optimize application architecture for scalability and maintainability\n • Analyzed user requirements and derived software design and performance requirements for web applications • Implemented automated testing and deployment processes, reducing deployment time by 30% • Debugged existing software and corrected defects, improving application stability by 25%",
+    "startDate": "February 2022",
+    "endDate": "August 2022"
+  },
+  {
+    "jobTitle": "Software Engineer",
+    "company": "Cognizant (Contract)",
+    "jobDescription": "• Developed Proof-of-Concept and MVP projects to validate new architectures and solutions, resulting in a 50% reduction in development time • Completed programming and performed testing and debugging applications, resulting in a 15% reduction in post-deployment bugs • Designed, developed, and deployed web applications on AWS platform using EC2, S3, Lambda, API Gateway, and DynamoDB • Improved web application performance by 20% through implementation of scalable and fault-tolerant systems on AWS",
+    "startDate": "March 2021",
+    "endDate": "December 2021"
   }
 ]
