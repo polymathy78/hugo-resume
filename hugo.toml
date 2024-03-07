@@ -1,5 +1,4 @@
 languageCode = "en-us"
-title = "Jeff Graham | Cloud-Native Developer"
 theme = "mytheme"
 relativeURLS = true
 
@@ -7,6 +6,7 @@ relativeURLS = true
   author = "Jeff Graham"
   description = "Cloud Enthusiast"
   currentYear = "2024"
+  title = "Jeff Graham | Cloud-Native Developer"
 
 [module]
   [[module.mounts]]
